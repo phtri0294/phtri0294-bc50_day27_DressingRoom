@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CyberLearn Dressing Room</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./../assets/css/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid dressingRoom">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="text-center">
+            <img src="./../assets/images/cybersoft.png" alt="Card image" />
+          </div>
+
+          <div class="card-body">
+            <h4 class="card-title dressName text-center">
+              CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+              - Virtual Dressing Room
+            </h4>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="nav nav-pills">
+          <!-- Thêm menu tab cho từng loại mặt hàng -->
+          <!-- Áo -->
+          <li class="nav-item">
+            <a class="nav-link active" id="tabTopClothes" data-toggle="pill" href="#paneTopClothes">Áo</a>
+          </li>
+
+          <!-- Quần -->
+          <li class="nav-item">
+            <a class="nav-link" id="tabBotClothes" data-toggle="pill" href="#paneBotClothes">Quần</a>
+          </li>
+
+          <!-- Giày dép-->
+          <li class="nav-item">
+            <a class="nav-link" id="tabShoes" data-toggle="pill" href="#paneShoes">Giày dép</a>
+          </li>
+
+          <!-- Túi xách -->
+          <li class="nav-item">
+            <a class="nav-link" id="tabHandBags" data-toggle="pill" href="#paneHandBags">Túi xách</a>
+          </li>
+
+          <!-- Dây chuyền  -->
+          <li class="nav-item">
+            <a class="nav-link" id="tabNecklaces" data-toggle="pill" href="#paneNecklaces">Dây chuyền</a>
+          </li>
+
+          <!-- Kiểu tóc -->
+          <li class="nav-item">
+            <a class="nav-link" id="tabHairStyle" data-toggle="pill" href="#paneHairStyle">Kiểu tóc</a>
+          </li>
+
+          <!-- Nền -->
+          <li class="nav-item">
+            <a class="nav-link" id="tabBackground" data-toggle="pill" href="#paneBackground">Nền</a>
+          </li>
+        </ul>
+
+        <div class="well">
+          <div class="tab-content">
+            <!-- Tab Pane - Áo -->
+            <div class="tab-pane fade show active" id="paneTopClothes">
+              <div class="row">
+                <!-- Cloth 1 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth1_show.jpg" alt="Top Cloth 1"
+                      data-dress-type="topclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth1.png" alt="Top Cloth 1"
+                      data-dress-type="topclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Top Cloth 1</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cloth 2 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth2_show.jpg" alt="Top Cloth 2"
+                      data-dress-type="topclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth2.png" alt="Top Cloth 2"
+                      data-dress-type="topclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Top Cloth 2</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cloth 3 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth3_show.jpg" alt="Top Cloth 3"
+                      data-dress-type="topclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth3.png" alt="Top Cloth 3"
+                      data-dress-type="topclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Top Cloth 3</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cloth 4 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth4_show.jpg" alt="Top Cloth 4"
+                      data-dress-type="topclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth4.png" alt="Top Cloth 4"
+                      data-dress-type="topclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Top Cloth 4</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cloth 5 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth3_show.jpg" alt="Top Cloth 5"
+                      data-dress-type="topclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth5.png" alt="Top Cloth 5"
+                      data-dress-type="topclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Top Cloth 5</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cloth 6 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth6_show.jpg" alt="Top Cloth 6"
+                      data-dress-type="topclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/topcloth6.png" alt="Top Cloth 6"
+                      data-dress-type="topclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Top Cloth 6</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab Pane - Quần -->
+            <div class="tab-pane fade" id="paneBotClothes">
+              <div class="row">
+                <!-- Cloth 1 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/botcloth1_show.jpg" alt="Bot Cloth 1"
+                      data-dress-type="botclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/botcloth1.png" alt="Bot Cloth 1"
+                      data-dress-type="botclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Bot Cloth 1</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cloth 2 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/botcloth2_show.jpg" alt="Top Cloth 2"
+                      data-dress-type="botclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/botcloth2.png" alt="Bot Cloth 2"
+                      data-dress-type="botclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Bot Cloth 2</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cloth 3 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/botcloth3_show.jpg" alt="Bot Cloth 3"
+                      data-dress-type="botclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/botcloth3.png" alt="Bot Cloth 3"
+                      data-dress-type="botclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Bop Cloth 3</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cloth 4 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/botcloth4_show.jpg" alt="Bot Cloth 4"
+                      data-dress-type="botclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/botcloth4.png" alt="Bot Cloth 4"
+                      data-dress-type="botclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Bot Cloth 4</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cloth 5 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/clothes/botcloth3_show.jpg" alt="Bot Cloth 5"
+                      data-dress-type="botclothes">
+                    <img class="card-img-top" src="../assets/images/clothes/botcloth5.png" alt="Bot Cloth 5"
+                      data-dress-type="botclothes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Bot Cloth 1</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab Pane - Giày dép -->
+            <div class="tab-pane fade" id="paneShoes">
+              <div class="row">
+                <!-- Shoes 1 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/shoes/shoes1_show.jpg" alt="Shoes 1"
+                      data-dress-type="shoes">
+                    <img class="card-img-top" src="../assets/images/shoes/shoes1.png" alt="Shoes 1"
+                      data-dress-type="shoes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Shoes 1</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Shoes 2 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/shoes/shoes2_show.jpg" alt="Shoes 2"
+                      data-dress-type="shoes">
+                    <img class="card-img-top" src="../assets/images/shoes/shoes2.png" alt="Shoes 2"
+                      data-dress-type="shoes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Shoes 2</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Shoes 3 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/shoes/shoes3_show.jpg" alt="Shoes 3"
+                      data-dress-type="shoes">
+                    <img class="card-img-top" src="../assets/images/shoes/shoes3.png" alt="Shoes 3"
+                      data-dress-type="shoes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Shoes 3</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Shoes 4 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/shoes/shoes4_show.jpg" alt="Shoes 4"
+                      data-dress-type="shoes">
+                    <img class="card-img-top" src="../assets/images/shoes/shoes4.png" alt="Shoes 4"
+                      data-dress-type="shoes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Shoes 4</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Shoes 5 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/shoes/shoes5_show.jpg" alt="Shoes 5"
+                      data-dress-type="shoes">
+                    <img class="card-img-top" src="../assets/images/shoes/shoes5.png" alt="Shoes 5"
+                      data-dress-type="shoes" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Shoes 5</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab Pane - Túi xách -->
+            <div class="tab-pane fade" id="paneHandBags">
+              <div class="row">
+                <!-- Handbag 1 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/handbags/handbag1_show.jpg" alt="Handbag 1"
+                      data-dress-type="handbags">
+                    <img class="card-img-top" src="../assets/images/handbags/handbag1.png" alt="Handbag 1"
+                      data-dress-type="handbags" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Handbag 1</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Handbag 2 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/handbags/handbag2_show.jpg" alt="Handbag 2"
+                      data-dress-type="handbags">
+                    <img class="card-img-top" src="../assets/images/handbags/handbag2.png" alt="Handbag 2"
+                      data-dress-type="handbags" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Handbag 2</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Handbag 3 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/handbags/handbag3_show.jpg" alt="Handbag 3"
+                      data-dress-type="handbags">
+                    <img class="card-img-top" src="../assets/images/handbags/handbag3.png" alt="Handbag 3"
+                      data-dress-type="handbags" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Handbag 3</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab Pane - Dây chuyền -->
+            <div class="tab-pane fade" id="paneNecklaces">
+              <div class="row">
+                <!-- Necklace 1 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/necklaces/necklace1_show.jpg" alt="Necklace 1"
+                      data-dress-type="necklaces">
+                    <img class="card-img-top" src="../assets/images/necklaces/necklace1.png" alt="Necklace 1"
+                      data-dress-type="necklaces" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Necklace 1</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Necklace 2 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/necklaces/necklace2_show.jpg" alt="Necklace 2"
+                      data-dress-type="necklaces">
+                    <img class="card-img-top" src="../assets/images/necklaces/necklace2.png" alt="Necklace 2"
+                      data-dress-type="necklaces" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Necklace 2</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Necklace 3 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/necklaces/necklace3_show.jpg" alt="Necklace 3"
+                      data-dress-type="necklaces">
+                    <img class="card-img-top" src="../assets/images/necklaces/necklace3.png" alt="Necklace 3"
+                      data-dress-type="necklaces" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Necklace 3</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab Pane - Kiểu tóc -->
+            <div class="tab-pane fade" id="paneHairStyle">
+              <div class="row">
+                <!-- Hairstyle 1 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/hairstyle/hairstyle1_show.jpg" alt="Hairstyle 1"
+                      data-dress-type="hairstyle">
+                    <img class="card-img-top" src="../assets/images/hairstyle/hairstyle1.png" alt="Hairstyle 1"
+                      data-dress-type="hairstyle" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Hairstyle 1</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Hairstyle 2 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/hairstyle/hairstyle2_show.jpg" alt="Hairstyle 2"
+                      data-dress-type="hairstyle">
+                    <img class="card-img-top" src="../assets/images/hairstyle/hairstyle2.png" alt="Hairstyle 2"
+                      data-dress-type="hairstyle" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Hairstyle 2</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Hairstyle 3 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/hairstyle/hairstyle3_show.jpg" alt="Hairstyle 3"
+                      data-dress-type="hairstyle">
+                    <img class="card-img-top" src="../assets/images/hairstyle/hairstyle3.png" alt="Hairstyle 3"
+                      data-dress-type="hairstyle" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Hairstyle 3</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab Pane - Nền -->
+            <div class="tab-pane fade" id="paneBackground">
+              <div class="row">
+                <!-- Background 1 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/background/background1_show.jpg" alt="Background 1"
+                      data-dress-type="background">
+                    <img class="card-img-top" src="../assets/images/background/background1.jpg" alt="Background 1"
+                      data-dress-type="background" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Background 1</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Background 2 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/background/background2_show.jpg" alt="Background 2"
+                      data-dress-type="background">
+                    <img class="card-img-top" src="../assets/images/background/background2.jpg" alt="Background 2"
+                      data-dress-type="background" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Background 2</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Background 3 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/background/background3_show.jpg" alt="Background 3"
+                      data-dress-type="background">
+                    <img class="card-img-top" src="../assets/images/background/background3.jpg" alt="Background 3"
+                      data-dress-type="background" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Background 3</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Background 4 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/background/background4_show.jpg" alt="Background 4"
+                      data-dress-type="background">
+                    <img class="card-img-top" src="../assets/images/background/background4.jpg" alt="Background 4"
+                      data-dress-type="background" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Background 4</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Background 5 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/background/background5_show.jpg" alt="Background 5"
+                      data-dress-type="background">
+                    <img class="card-img-top" src="../assets/images/background/background5.jpg" alt="Background 5"
+                      data-dress-type="background" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Background 5</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Background 6 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/background/background6_show.jpg" alt="Background 6"
+                      data-dress-type="background">
+                    <img class="card-img-top" src="../assets/images/background/background6.jpg" alt="Background 6"
+                      data-dress-type="background" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Background 6</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Background 7 -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/images/background/background7_show.jpg" alt="Background 7"
+                      data-dress-type="background">
+                    <img class="card-img-top" src="../assets/images/background/background7.jpg" alt="Background 7"
+                      data-dress-type="background" style="display: none;">
+                    <div class="card-body">
+                      <h3 class="card-title dressName">Background 7</h3>
+                      <button class="btn btn-primary btnPutOn">Mặc thử</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="contain" id="modelImage">
+          <div class="body">
+          </div>
+          <div class="model">
+          </div>
+          <!-- Kiểu tóc -->
+          <div class="hairstyle" id="putOnHairstyle">
+            <img id="hairstyleImg" src="" alt="">
+          </div>
+          <!-- Dây chuyền -->
+          <div class="necklace" id="putOnNecklace">
+            <img id="necklaceImg" src="" alt="">
+          </div>
+          <!-- Áo  -->
+          <div class="bikinitop" id="putOnBikinitop">
+            <img id="bikinitopImg" src="" alt="">
+          </div>
+          <!-- Quần -->
+          <div class="bikinibottom">
+            <img id="bikinibottomImg" src="" alt="">
+          </div>
+          <!-- Túi -->
+          <div class="handbag">
+            <img id="handbagImg" src="" alt="">
+          </div>
+          <!-- Giày -->
+          <div class="feet">
+            <img id="feetImg" src="" alt="">
+          </div>
+          <!-- Nền -->
+          <div class="background">
+            <img id="backgroundImg" src="" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script type="module" src="./../controllers/main.js"></script>
+</body>
+
+</html>
